@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+    background-color: #24111c;
+    overflow: hidden;
+}
+
+.nav1 a{
+    float: right;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+}
+.nav1 a:hover {
+    /* color: black; */
+    background-color: #b24b53;
+    
+}  
