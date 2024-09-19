@@ -17,7 +17,26 @@
     transition: 0.2s;
 }
 .nav1 a:hover {
-    /* color: black; */
+    /* color: #ef9980; */
     background-color: #b24b53;
     
 }  
+.img1{
+    min-height: 50vh;
+    background-size: 100% auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.al{
+    width: 50%;
+    margin-block: 50px;
+    color: #5a202c;
+}
+.al1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
