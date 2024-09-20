@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .nav1 {
-    background-color: #4a90e2; /* New navbar background color */
+    background-color: #4a90e2; /* Navbar background color */
     overflow: hidden;
 }
 
@@ -13,15 +13,15 @@
     float: right;
     text-align: center;
     padding: 10px 20px;
-    color: #ffffff; /* New text color */
+    color: #ffffff; /* Navbar text color */
     text-decoration: none;
     font-size: 17px;
     transition: 0.2s;
 }
 
 .nav1 a:hover {
-    background-color: #357ab7; /* Change background on hover */
-    color: #ffcc00; /* Change text color on hover */
+    background-color: #357ab7; /* Navbar hover background color */
+    color: #ffcc00; /* Navbar hover text color */
 }
 
 .img1 {
@@ -35,13 +35,30 @@
 }
 
 .al {
-    width: 50%;
+    width: 100%;
     margin-block: 50px;
-    color: #5a202c;
+    background-color: #4a90e2; /* Matching navbar background color */
+    color: white;
+    padding: 20px;
+    border-radius: 10px; /* Optional: Rounded corners for the whole div */
 }
 
 .al1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+/* Individual element styling */
+.al h1, .al h2, .al p {
+    color: white; /* Ensure all text inside the div is white */
+}
+
+.al h1, .al h2 {
+    padding: 10px;
+}
+
+.al p {
+    padding: 10px;
+    border-radius: 5px; /* Optional: Rounded corners for the paragraph */
 }
