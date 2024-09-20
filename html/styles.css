@@ -3,37 +3,44 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-.nav1{
-    background-color: #24111c;
+
+.nav1 {
+    background-color: #4a90e2; /* New navbar background color */
     overflow: hidden;
 }
 
-.nav1 a{
+.nav1 a {
     float: right;
     text-align: center;
     padding: 10px 20px;
-    color: white;
+    color: #ffffff; /* New text color */
     text-decoration: none;
     font-size: 17px;
     transition: 0.2s;
 }
+
 .nav1 a:hover {
-    background-color: #b24b53;
-}  
-.img1{
+    background-color: #357ab7; /* Change background on hover */
+    color: #ffcc00; /* Change text color on hover */
+}
+
+.img1 {
     min-height: 50vh;
     background-size: 100% auto;
 }
-.container{
+
+.container {
     width: 80%;
     margin: auto;
 }
-.al{
+
+.al {
     width: 50%;
     margin-block: 50px;
     color: #5a202c;
 }
-.al1{
+
+.al1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
