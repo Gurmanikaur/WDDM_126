@@ -33,7 +33,7 @@
 }
 
 .img2 {
-    outline: 2px solid #ffcc00; 
+    outline: 2px solid #ffffff; 
     border-radius: 10px; 
     margin-top: 10px;
 }
@@ -58,7 +58,7 @@
     padding: 20px;
     border-radius: 10px;
     transition: all 0.3s ease;
-    outline: 2px solid #ffcc00; 
+    outline: 2px solid #ffffff; 
 }
 
 .al:hover {
