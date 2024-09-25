@@ -1,13 +1,13 @@
-/* General CSS rules */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-/* Navigation styles */
+
 .nav1 {
-    background-color: #4a90e2; 
+    background-color: #AEC6CF;
     overflow: hidden;
 }
 
@@ -15,60 +15,60 @@
     float: right;
     text-align: center;
     padding: 10px 20px;
-    color: #ffffff; 
+    color: #2B3A42;
     text-decoration: none;
     font-size: 17px;
     transition: 0.2s;
 }
 
 .nav1 a:hover {
-    background-color: #357ab7;
-    color: #ffcc00;
+    background-color: #CFCFC4;
+    color: #6B8E23; 
 }
 
-/* Image styles */
+
 .img1 {
     min-height: 50vh;
     background-size: 100% auto;
 }
 
 .img2 {
-    outline: 2px solid #ffffff; 
+    outline: 2px solid #CFCFC4; 
     border-radius: 10px; 
     margin-top: 10px;
 }
 
-/* Container and content styling */
+
 .container {
     width: 80%;
     margin: auto;
 }
 
 .al1 {
-    background-color: #4a90e2;
-    color: white;
+    background-color: #FFDEAD; 
+    color: #2B3A42; 
     padding: 20px;
     border-radius: 10px; 
     margin-top: 20px;
 }
 
 .al {
-    background-color: #4a90e2; 
-    color: white;
+    background-color: #FFDEAD; 
+    color: #2B3A42; 
     padding: 20px;
     border-radius: 10px;
     transition: all 0.3s ease;
-    outline: 2px solid #ffffff; 
+    outline: 2px solid #CFCFC4; 
 }
 
 .al:hover {
-    background-color: #357ab7;
+    background-color: #F5F5DC; 
     transform: scale(1.05); 
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .al h1, .al h2, .al p {
-    color: white;
+    color: #2B3A42;
 }
 
 .al h1, .al h2 {
@@ -80,10 +80,9 @@
     border-radius: 5px;
 }
 
-/* Footer Styles */
 .footer {
-    background-color: #357ab7; /* Changed footer color to match hover state */
-    color: white;
+    background-color: #AEC6CF; 
+    color: #2B3A42; 
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
@@ -94,10 +93,10 @@
 }
 
 .footer a {
-    color: #ffcc00;
+    color: #6B8E23; 
     text-decoration: none;
 }
 
 .footer a:hover {
-    color: white;
+    color: #2B3A42; 
 }
